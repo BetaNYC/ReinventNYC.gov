@@ -1,0 +1,324 @@
+body {
+	background : #f5f3f2 url("../img/background_stripes.png") top center repeat-y;
+
+}
+
+
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+border-width : 0 1px;
+}
+
+/* topnav
+--------------------------------------------------------------------------------------*/
+
+
+
+
+#topnav nav {
+  background-color : #EFEFEF;
+  border-bottom: 1px solid #CCC;
+width : 100%;
+
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+#topnav ul {
+float : right;
+margin-right : 20px;
+}
+
+
+
+#topnav nav li {
+line-height : 1.5em;
+font-size : .9em;
+}
+
+
+/* identity nav
+--------------------------------------------------------------------------------------*/
+
+.identity-nav {
+background-color : #fff;
+}
+
+
+
+
+.identity-nav nav {
+margin-right : 27px;
+float : right;
+margin-top : 12px;
+}
+
+
+
+.identity-nav li h2 {
+font : normal normal normal 27px/23px "Helvetica Neue";
+font-style : italic;
+}
+
+
+.identity-nav .tagline {
+font : normal normal normal 20px/23px "Helvetica Neue";
+display : inline-block;
+font-style : italic;
+font-variant : light;
+color : #6f6f6f;
+margin-top : 41px;
+margin-left : 35px;
+}
+
+.identity-nav li a {
+text-transform : none;
+}
+
+.identity-nav #nav-visitors a {
+color : #0094c6 !important;
+}
+
+
+.identity-nav #nav-311 a {
+color : #ff6d00  !important;
+}
+
+
+.identity-nav #nav-mynyc a {
+color : #ffa900  !important;
+}
+
+.identity-nav #nav-visitors a:hover, 
+.identity-nav #nav-311 a:hover, 
+.identity-nav #nav-mynyc a:hover {
+color : #000 !important;
+}
+
+
+#heading h1,
+#heading nav {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+#heading h1 {
+margin : 0;
+}
+
+#heading h1#logo a {
+  display: block;
+  text-indent: -9999px;
+  width: 187px;
+  height: 66px;
+  background: url("../img/logo.png") no-repeat;
+margin-left : 19px; 
+margin-top : 21px;
+margin-bottom : 22px;
+}
+
+
+#heading h1 {
+  font-size: 1em;
+  line-height: 1em;
+  float: left;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  line-height: 2.3em;
+}
+
+nav li a {
+  color: #333 !important;
+  display: inline-block;
+  margin: .3em 0 0 2em;
+  text-transform: uppercase;
+  color: rgb(0,0,0);
+  font-size: .8em;
+  text-shadow: 0 1px 0 #FFFFFF;
+}
+
+nav li#nav-visitors a {
+margin-left : 0;
+}
+
+#identity-nav nav li a, 
+#identity-nav nav li, 
+#identity-nav nav ul, 
+#identity-nav nav h2 {
+line-height : 0 !important;
+margin : 0 !important;
+padding : 0 !important;
+}
+
+nav li.search a {
+  text-indent: -9999px;
+  background: url("../img/nav_search.png") no-repeat;
+  width: 21px;
+  height: 21px;
+  margin-left: 1em;
+}
+
+section.alerts {
+  clear: both;
+  background: #EEEEEE;
+  padding: .2em 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+.home ul {
+  position: relative;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.home ul.megamenu {
+  position: absolute;
+  padding: 1em;
+  background: #444;
+  margin-top: -10px;
+  border-radius: 5px;
+  display: none;
+z-index : 70;
+}
+
+
+
+.home nav li:hover > .megamenu {
+  display: block;
+}
+
+.home ul.megamenu li a {
+  color: #EFEFEF !important;
+  text-shadow: -1px 0 0 #000;
+  float: left;
+  width: 220px;
+  line-height: 1.1em;
+}
+
+
+
+/* search
+--------------------------------------------------------------------------------------*/
+
+
+#searchbox {
+padding-top : 175px;
+margin-bottom : 500px
+}
+
+
+#heading section.search {
+  background: url("../img/search_photo.jpg") no-repeat;
+height : 337px;
+
+}
+
+
+
+#findit_chzn .chzn-choices {
+width : 554px;
+margin : 0 auto;
+}
+
+#findit_chzn {
+margin : 0;
+}
+
+
+.search-item {
+  width: 270px;
+  float: left;
+  background: #EEE;
+  padding: 10px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.home #findit {
+  width: 100%;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* alerts
+--------------------------------------------------------------------------------------*/
+
+
+
+section.alerts ul {
+  background: #FFF;
+  padding: .5em .5em;
+  border-radius: 5px;
+}
+
+section.alerts .more {
+  padding-top: .6em;
+  font-size: .9em;
+}
+
+.home form input {
+  font-size: 1.9em;
+  padding: .4em .3em;
+  border: 7px solid rgba(0,0,0,.1);
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.home form input.search {
+  width: 89%;
+}
+
+.home form input.button {
+  border: 0;
+}
+
+.temp {
+  font-size: 4em;
+}
+
+.subtitle {
+  display: block;
+  font-size: .85em;
+  text-transform: uppercase;
+}
+
+.bloomberg {
+  display: inline-block;
+  background: #EFEFEF;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 1em;
+}
+
+.bloomberg img {
+  float: left;
+  margin-right: 8px;
+}
+
+div#grid-results {
+  margin-left: -13px;
+}
+
+
+
